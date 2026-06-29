@@ -11,7 +11,8 @@
   },
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "test": "echo \"belum ada test, tambahin nanti\" && exit 0"
   },
   "dependencies": {
     "ejs": "^6.0.1",
