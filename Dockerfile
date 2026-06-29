@@ -1,4 +1,4 @@
-FROM node:24.14.1-alpine AS base
+FROM node:24.14.1-alpine
 
 WORKDIR /app
 
@@ -7,6 +7,9 @@ COPY package*.json ./
 RUN npm ci --omit=dev
 
 COPY . .
+
+ENV NODE_ENV=production
+ENV PORT=3000
 
 EXPOSE 3000
 
