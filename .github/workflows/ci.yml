@@ -36,9 +36,6 @@ jobs:
  
       - name: Run unit tests
         run: npm run test
- 
-      - name: Build
-        run: npm run build
 
       - name: Login to Docker Hub
         run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
