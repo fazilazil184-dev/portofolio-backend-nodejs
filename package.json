@@ -1,0 +1,23 @@
+{
+  "name": "portofolio-nodejs",
+  "version": "1.0.0",
+  "description": "Portofolio-Fazil-Backend-Developer",
+  "license": "MIT",
+  "author": "Fazil",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "engines": {
+    "node": ">=24.14.1"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
